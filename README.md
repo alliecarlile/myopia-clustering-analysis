@@ -23,8 +23,6 @@ Read myopia.csv into a Pandas DataFrame.
 
 Remove the "MYOPIC" column from the dataset.
 
-Note: The target column is needed for supervised machine learning, but it will make an unsupervised model biased. After all, the target column is effectively providing clusters already!
-Standardize your dataset so that columns that contain larger values do not influence the outcome more than columns with smaller values.
 
 Part 2: Apply Dimensionality Reduction
 Perform dimensionality reduction with PCA. How did the number of the features change?
