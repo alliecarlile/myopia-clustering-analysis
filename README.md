@@ -1,20 +1,12 @@
-# unsupervised-machine-learning-challenge
+
 Background
+
 You are on the data science team of a medical research company that’s interested in finding better ways to predict myopia, or nearsightedness. Your team has tried—and failed—to improve their classification model when training on the whole dataset. However, they believe that there might be distinct groups of patients that would be better to analyze separately. So, your supervisor has asked you to explore this possibility by using unsupervised learning.
 
 You have been provided with raw data, so you’ll first need to process it to fit the machine learning models. You will use several clustering algorithms to explore whether the patients can be placed into distinct groups. Then, you’ll create a visualization to share your findings with your team and other key stakeholders.
 
-Before You Begin
-Create a new repository for this project called unsupervised-machine-learning-challenge. Do not add this Challenge to an existing repository.
 
-Clone the new repository to your computer.
 
-Files
-Download the following files to help you get started:
-
-Module 20 Challenge files
-
-Instructions
 This activity is broken down into four parts:
 
 Part 1: Prepare the Data.
@@ -28,7 +20,7 @@ Part 4: Make a Recommendation.
 Part 1: Prepare the Data
 Read myopia.csv into a Pandas DataFrame.
 
-Note: This file can be found in your Module 20 Challenge files.
+
 Remove the "MYOPIC" column from the dataset.
 
 Note: The target column is needed for supervised machine learning, but it will make an unsupervised model biased. After all, the target column is effectively providing clusters already!
@@ -51,7 +43,18 @@ If possible, determine where the elbow of the plot is, and at which value of k i
 Part 4: Make a Recommendation
 Based on your findings, write up a brief (one or two sentences) recommendation for your supervisor in your Jupyter Notebook. Can the patients be clustered? If so, into how many clusters?
 
-Submission
-To submit your Challenge assignment, click Submit, and then provide the URL of your GitHub repository for grading.
+**Methods used:** 
 
-NOTE
+Pandas
+
+Matplotlib
+
+StandardScaler
+
+PCA
+
+Kmeans
+
+T-SNE
+
+Jupyter Notebooks
